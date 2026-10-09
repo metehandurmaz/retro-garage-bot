@@ -2,7 +2,7 @@
 
     python -m src.main            upload up to VIDEOS_PER_RUN (never more than DAILY_LIMIT per day)
     python -m src.main --dry-run  render into out/ with metadata, no upload, nothing marked as used
-    python -m src.main --mode story|clip   force one kind instead of the daily story/clip/story rotation
+    python -m src.main --mode story|clip   force one kind (default: stories, clips only as fallback)
 """
 
 import argparse
@@ -172,10 +172,8 @@ def process_story(cfg: config.Config, story: Story, dry_run: bool, store: Store)
 
 
 def wants_story(mode: str, slot: int) -> bool:
-    if mode != "auto":
-        return mode == "story"
-    # Daily rotation story, clip, story: narrated stories perform better, clips stretch the story bank.
-    return slot % 3 != 1
+    # Every upload is a narrated story; plain clips are only the fallback when a story fails or the bank is empty.
+    return mode != "clip"
 
 
 def main() -> int:

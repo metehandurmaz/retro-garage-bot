@@ -246,6 +246,207 @@ STORIES = [
         kaza anında ezilerek enerjiyi emen gövde bölgelerine sahip ilk spor arabalardan biriydi.
     """, ("Mercedes-Benz W113 Pagode", "Mercedes 280 SL"), ("w113", "w 113", "pagode", "pagoda", "230 sl", "250 sl", "280 sl"),
        "#mercedes", max_year=1971),
+
+    _s("ferrari-testarossa", "Adı İtalyanca 'Kızıl Kafa' Demek! Ferrari Testarossa", """
+        Bu arabanın adı İtalyanca kızıl kafa demek. Ferrari Testarossa'nın motorundaki silindir kapakları
+        kırmızıya boyanmıştı. Yanlardaki dev hava girişleri, arkadaki motora serin hava taşıyordu.
+        1984'te çıktı ve seksenlerde neredeyse her gencin duvarındaki poster oldu.
+    """, "Ferrari Testarossa", ("testarossa",), "#ferrari", max_year=1996, exclude=("250", "500 trc")),
+
+    _s("lamborghini-countach", "Geri Giderken Kapıyı Açıp Eşiğe Oturuyorlardı! Lamborghini Countach", """
+        Bu arabanın adı, İtalya'nın Piemonte şivesinde hayranlık ünlemi demek. Lamborghini Countach'ın
+        arka görüşü o kadar kötüydü ki, sürücüler geri giderken makas kapıyı açıp eşiğe oturuyordu.
+        1974'te çıktı ve süper araba denince akla gelen ilk şekil oldu.
+    """, ("Lamborghini Countach", "Lamborghini Countach LP400", "Lamborghini Countach LP5000", "Countach 5000 Quattrovalvole"),
+       ("countach",), "#lamborghini", max_year=1990, exclude=("lpi", "800-4")),
+
+    _s("mercedes-w123", "2,7 Milyon Üretildi, Taksilerin Efsanesi Oldu! Mercedes W123", """
+        Bu Mercedes'ten tam 2 milyon 700 bin tane üretildi. W123, 1976'da çıktı ve dünyanın dört bir yanında
+        taksi olarak çalıştı. Motoru o kadar dayanıklıydı ki, yüz binlerce kilometreyi devirip hâlâ çalışanlar var.
+        Mercedes'in sağlamlık efsanesi bu arabayla perçinlendi.
+    """, ("Mercedes-Benz W123", "Mercedes W123 taxi"), ("w123", "w 123"), "#mercedes", "#w123", max_year=1986),
+
+    _s("tofas-murat-124", "Rusya'da Lada, Türkiye'de Murat Oldu! Murat 124", """
+        Aynı araba Rusya'da Lada, Türkiye'de Murat oldu. 1971'de Bursa'daki Tofaş fabrikasından çıkan ilk otomobil,
+        Fiat 124'ün Türkiye'de üretilen hâli Murat 124'tü. Fiat 124, 1967'de Avrupa'da yılın otomobili seçilmişti.
+        Murat 124, Türkiye'de milyonlarca insanın ilk arabası oldu.
+    """, ("Fiat 124", "Tofaş Murat 124", "Fiat 124 1967", "Fiat 124 Berlina", "Fiat 124 Special"), ("fiat 124", "murat 124", "tofaş", "tofas"), "#murat124", "#tofas",
+       max_year=1984, exclude=("spider", "spyder", "abarth", "2016", "2017", "2018", "2019", "2020")),
+
+    _s("tofas-murat-131", "Şahin, Doğan, Kartal... Hepsi Bu Arabadan! Tofaş Murat 131", """
+        Şahin, Doğan ve Kartal. Türkiye'nin yollarını yıllarca dolduran bu üç kardeşin atası aynı arabaydı.
+        Tofaş, 1977'de Fiat 131'i Murat 131 adıyla üretmeye başladı. Sonra gövde yenilendi ve 1985'te Şahin doğdu.
+        Bu aile tam 2002'ye kadar Bursa'da banttan inmeye devam etti.
+    """, ("Fiat 131 Mirafiori", "Tofaş Şahin", "Tofas Dogan"), ("131", "şahin", "sahin", "doğan", "dogan", "kartal"),
+       "#tofas", "#sahin", max_year=2002),
+
+    _s("renault-12", "Bursa'da 29 Yıl Üretildi! Renault 12 Toros", """
+        Bu araba Bursa'da tam 29 yıl üretildi. Oyak Renault, 1971'de Renault 12'yi Türkiye'de yapmaya başladı.
+        Sağlam gövdesi ve geniş bagajıyla aileler onu çok sevdi. Station wagon modelinin adı ise Toros'tu.
+        Son Renault 12, 2000 yılında banttan indi.
+    """, "Renault 12", ("renault 12", "r12", "toros"), "#renault12", "#toros", max_year=2000),
+
+    _s("chevrolet-bel-air-1957", "Her Kübik İnç İçin Bir Beygir! 1957 Chevrolet Bel Air", """
+        1957 Chevrolet Bel Air, Amerika'nın en tanınan klasik arabalarından biri. O yıl Chevrolet,
+        283 kübik inçlik V8 motora yakıt enjeksiyonu ekledi ve tam 283 beygir güç aldı.
+        Her kübik inç için bir beygir, o dönem için inanılmaz bir rakamdı.
+    """, "1957 Chevrolet Bel Air", ("bel air",), "#chevrolet", "#belair", max_year=1957),
+
+    _s("aston-martin-db5", "Film Arabası 6,4 Milyon Dolara Satıldı! Aston Martin DB5", """
+        Bu araba 1964'te bir James Bond filminde oynadı ve dünyanın en ünlü arabalarından biri oldu.
+        Aston Martin DB5'in filmde kullanılan orijinallerinden biri, 2019'da açık artırmada
+        6 milyon 385 bin dolara satıldı. Sinema tarihinin en pahalı arabalarından biri.
+    """, ("Aston Martin DB5", "Aston Martin DB5 1964", "Aston Martin DB5 Vantage", "1965 Aston Martin DB5"), ("db5",),
+       "#astonmartin", max_year=1965),
+
+    _s("jaguar-d-type", "Le Mans'ı Üst Üste Üç Kez Kazandı! Jaguar D-Type", """
+        Bu araba Le Mans 24 Saat yarışını üst üste üç kez kazandı. Jaguar D-Type, uçak teknolojisiyle yapılmıştı
+        ve arkasındaki yüzgeç ona dengeyi veriyordu. 1955, 56 ve 57'de birinci oldu.
+        1957'de ise ilk dört sırayı D-Type'lar aldı.
+    """, "Jaguar D-Type", ("d-type", "d type", "dtype"), "#jaguar", "#lemans", max_year=1960),
+
+    _s("bmw-2002-turbo", "Ön Tamponundaki Yazı Ters Yazılmıştı! BMW 2002 Turbo", """
+        Bu arabanın ön tamponundaki turbo yazısı bilerek ters yazılmıştı. Öndeki sürücü dikiz aynasına baktığında
+        düz okusun ve yol versin diye. BMW 2002 Turbo, 1973'te Avrupa'nın ilk turbolu seri üretim otomobillerindendi.
+        Ama aynı yıl petrol krizi patladı ve sadece 1600 kadar üretildi.
+    """, ("BMW 2002 Turbo", "BMW 2002 tii", "BMW 2002"), ("bmw 2002",), "#bmw", exclude=("1602",)),
+
+    _s("chevrolet-camaro-1967", "Adının Anlamı: Mustang Yiyen Hayvan! 1967 Camaro", """
+        Gazeteciler Chevrolet'ye Camaro ne demek diye sorduğunda, aldıkları cevap efsane oldu:
+        Mustang yiyen, küçük ve vahşi bir hayvan. Chevrolet, Ford Mustang'in başarısına cevap olarak
+        1967'de Camaro'yu çıkardı. Ve iki araba arasındaki kavga bugün hâlâ sürüyor.
+    """, ("1967 Chevrolet Camaro", "1969 Chevrolet Camaro"), ("camaro",), "#camaro", "#chevrolet", max_year=1969),
+
+    _s("plymouth-road-runner", "Korna Sesi İçin Çizgi Filme 50 Bin Dolar Ödendi! Plymouth Road Runner", """
+        Bu arabanın kornası bip bip diye ötüyordu. Plymouth, Road Runner adını ve çizgi film kuşunun sesini
+        kullanmak için Warner Bros'a 50 bin dolar ödedi. 1968'de çıkan araba ucuz ama çok güçlüydü
+        ve beklenenin kat kat üstünde sattı.
+    """, "Plymouth Road Runner", ("road runner", "roadrunner"), "#plymouth", "#musclecar", max_year=1975),
+
+    _s("amc-gremlin", "1 Nisan'da Tanıtıldı, Şaka Sanıldı! AMC Gremlin", """
+        Bu araba 1 Nisan 1970'te tanıtıldı ve birçok kişi şaka sandı. AMC Gremlin'in arkası sanki kesilmiş gibiydi.
+        Ama Amerika'nın ilk küçük sınıf otomobillerinden biriydi ve benzin krizinde çok işe yaradı.
+        Bugün en tuhaf görünen klasiklerden biri olarak seviliyor.
+    """, "AMC Gremlin", ("gremlin",), "#amc", max_year=1978),
+
+    _s("vw-karmann-ghia", "İtalyan Tasarım, Alman Usta, Beetle Şasisi! VW Karmann Ghia", """
+        Bu araba İtalyan tasarımı, Alman ustalığı ve bir Beetle şasisinin birleşimiydi.
+        Volkswagen Karmann Ghia'nın gövdesini İtalyan Ghia çizdi, Alman Karmann ise elle şekillendirdi.
+        1955'ten 1974'e kadar 445 bin kadar üretildi.
+    """, "Volkswagen Karmann Ghia", ("karmann", "ghia"), "#volkswagen", max_year=1974),
+
+    _s("saab-92", "Uçak Üreticisinin Yaptığı İlk Araba! Saab 92", """
+        Bu araba bir uçak fabrikasında doğdu. Savaş sonrası İsveçli uçak üreticisi Saab, otomobil yapmaya karar verdi.
+        1949'da çıkan Saab 92'nin damla şeklindeki gövdesi, uçak mühendisleri tarafından tasarlanmıştı.
+        Rüzgârı o kadar iyi yarıyordu ki, birçok modern arabadan daha aerodinamikti.
+    """, ("Saab 92", "Saab 93", "Saab 96"), ("saab 92", "saab 93", "saab 96"), "#saab", max_year=1980),
+
+    _s("audi-quattro", "Rallide Kuralları Yıkan Dört Çeker! Audi Quattro", """
+        1980'de Audi, rallide her şeyi değiştirecek bir araba tanıttı. Quattro, dört çeker sistemi
+        bir spor otomobilde kullanan ilk araçlardandı. Rakipler önce güldü, sonra tozunu yuttu.
+        Audi, 1982 ve 1984'te Dünya Ralli Şampiyonası'nda markalar şampiyonu oldu.
+    """, ("Audi Quattro 1980", "Audi Sport Quattro", "Audi Ur-Quattro"), ("quattro",), "#audi", "#rally",
+       max_year=1991, exclude=("a4", "a6", "q5", "q7", "rs", "tt", "s4", "a8")),
+
+    _s("ferrari-f40", "Enzo Ferrari'nin Onayladığı Son Araba! Ferrari F40", """
+        Bu, Enzo Ferrari'nin onay verdiği son arabaydı. F40, Ferrari'nin 40. yılı için 1987'de yapıldı.
+        Saatte 324 kilometreye çıkabiliyordu. Enzo Ferrari bir yıl sonra hayatını kaybetti.
+        F40 bugün tüm zamanların en saf süper arabalarından biri sayılıyor.
+    """, "Ferrari F40", ("f40",), "#ferrari", "#f40"),
+
+    _s("cord-810", "Farları Gizlenen İlk Seri Üretim Araba! Cord 810", """
+        1936'da bu arabanın farları kaportanın içine saklanabiliyordu. Cord 810, gizli farları olan
+        ilk seri üretim otomobildi. Farlar, ön paneldeki küçük kollarla elle açılıyordu.
+        Önden çekişliydi ve zamanının çok ötesindeydi ama şirket iki yıl sonra kapandı.
+    """, ("Cord 810", "Cord 812"), ("cord",), "#cord", max_year=1937),
+
+    _s("hudson-hornet", "Bir Animasyon Karakterine İlham Verdi! Hudson Hornet", """
+        Ünlü bir animasyon filmindeki bilge yarış arabası Doc'un gerçek bir atası var: Hudson Hornet.
+        Alçak gövdesi sayesinde virajlarda rakiplerinden çok daha iyi tutunuyordu.
+        1951'den 1954'e kadar NASCAR pistlerine hükmetti.
+    """, "Hudson Hornet", ("hornet",), "#hudson", max_year=1957),
+
+    _s("benz-patent-motorwagen", "Dünyanın İlk Uzun Yolculuğunu Bir Kadın Yaptı! Benz Patent-Motorwagen", """
+        Dünyanın ilk otomobilini Carl Benz yaptı, ama onu ünlü yapan eşi Bertha'ydı. 1888'de Bertha Benz,
+        kocasına haber vermeden iki oğluyla birlikte 106 kilometre yol gitti. Yakıt bitince bir eczaneden benzin aldı.
+        O eczane, tarihin ilk benzin istasyonu sayılıyor.
+    """, "Benz Patent-Motorwagen", ("motorwagen", "motorwagon"), "#mercedes", "#benz", exclude=("drawing",)),
+
+    _s("nissan-skyline-hakosuka", "Üç Yılda 50 Yarış Kazandı! Nissan Skyline GT-R Hakosuka", """
+        Bu Japon sedan üç yıl içinde 50 yarış kazandı. 1969'da çıkan Nissan Skyline GT-R'ye,
+        köşeli gövdesi yüzünden Japonca kutu Skyline anlamına gelen Hakosuka dendi.
+        Bugünkü GT-R efsanesi tam olarak bu arabayla başladı.
+    """, ("Nissan Skyline 2000GT-R", "Nissan Skyline KPGC10", "Skyline Hakosuka"), ("skyline", "hakosuka", "kpgc10"),
+       "#nissan", "#skyline", "#jdm", max_year=1973),
+
+    _s("mercedes-g-wagen", "Bir Şahın İsteğiyle Doğdu, 45 Yıldır Üretiliyor! Mercedes G-Class", """
+        Anlatılana göre bu arabanın hikâyesi İran Şahı'nın bir isteğiyle başladı. Mercedes G-Serisi,
+        1979'da askeri ve arazi aracı olarak tanıtıldı. Kutu gibi tasarımı neredeyse hiç değişmedi.
+        Ve bugün hâlâ üretiliyor.
+    """, ("Mercedes-Benz G-Class W460", "Mercedes W460", "Mercedes-Benz 230 GE"), ("w460", "w 460", "230 ge", "300 gd", "240 gd", "280 ge"),
+       "#mercedes", "#gclass", max_year=1992),
+
+    _s("range-rover-classic", "Louvre Müzesi'nde Sergilenen Araba! Range Rover", """
+        Bu arazi aracı bir zamanlar Paris'teki Louvre Müzesi'nde sergilendi. 1970'te çıkan Range Rover,
+        endüstriyel tasarımın örnek eseri olarak gösterildi. Hem çamurlu tarlada hem şehirde rahattı.
+        Lüks arazi aracı fikri tam olarak bu arabayla başladı.
+    """, ("Range Rover Classic", "Range Rover 1970"), ("range rover",), "#rangerover", "#landrover", max_year=1996,
+       exclude=("sport", "evoque", "velar", "p38", "l322", "l405")),
+
+    _s("renault-4", "8 Milyondan Fazla Üretildi! Renault 4", """
+        Bu küçük araba 8 milyondan fazla üretildi. Renault 4, 1961'de çıktı ve tam 31 yıl üretimde kaldı.
+        Vitesi ön panelden çıkan bir koldu, arka kapısı ise bir yük aracı gibi açılıyordu.
+        Fransa'da ona hâlâ sevgiyle Quatrelle deniyor.
+    """, "Renault 4", ("renault 4", "r4", "4l"), "#renault", max_year=1992),
+
+    _s("corvette-1963-split-window", "Sadece Bir Yıl Üretilen Arka Cam! 1963 Corvette Stingray", """
+        Bu arabanın arka camı ortadan ikiye bölünmüştü ve bu tasarım sadece bir yıl yaşadı.
+        1963 Corvette Stingray'in tasarımcısı bu camı çok seviyordu, ama mühendisler arka görüşü kapattığını söyledi.
+        Ertesi yıl cam tek parça yapıldı. Bugün bölünmüş camlı Stingray'ler en değerli Corvette'ler arasında.
+    """, ("1963 Corvette Stingray split window", "1963 Chevrolet Corvette Sting Ray"),
+       ("1963 corvette", "1963 chevrolet corvette", "corvette 1963", "'63 corvette", "'63 chevrolet corvette", "split window", "split-window"),
+       "#corvette",
+       max_year=1963),
+
+    _s("bmw-507", "Elvis'in Arabasıydı, Sadece 252 Tane Yapıldı! BMW 507", """
+        Bu arabadan sadece 252 tane üretildi ve biri Elvis Presley'indi. Elvis, Almanya'da askerlik yaparken
+        beyaz bir BMW 507 aldı. Araba yıllar sonra bir ahırda bulundu ve BMW tarafından baştan sona yenilendi.
+        BMW 507 bugün en değerli BMW'lerden biri.
+    """, "BMW 507", ("507",), "#bmw", max_year=1959),
+
+    _s("alfa-romeo-duetto", "27 Yıl Neredeyse Hiç Değişmedi! Alfa Romeo Spider", """
+        Bu üstü açık İtalyan, 1967'de ünlü bir Hollywood filminde oynayınca bir anda dünya yıldızı oldu.
+        Alfa Romeo Spider, 1966'da tanıtıldı ve tam 27 yıl üretildi.
+        Zarif çizgileri sayesinde bugün hâlâ en çok sevilen klasik İtalyan arabalarından biri.
+    """, ("Alfa Romeo Spider Duetto", "Alfa Romeo Spider 1966"), ("spider", "duetto"), "#alfaromeo", max_year=1993,
+       exclude=("brera", "916", "124")),
+
+    _s("ferrari-dino", "Enzo Ferrari Kaybettiği Oğlunun Adını Verdi! Ferrari Dino", """
+        Enzo Ferrari, bu arabaya genç yaşta kaybettiği oğlunun adını verdi. Oğlu Alfredo'ya herkes Dino diyordu.
+        Dino, babasıyla birlikte V6 motor fikri üzerinde çalışmıştı. Ferrari bu motorla yapılan küçük spor arabaya
+        onun adını verdi. Dino 246, bugün en sevilen klasiklerden biri.
+    """, ("Ferrari Dino 246 GT", "Dino 246 GT", "Dino 206 GT"), ("dino",), "#ferrari", "#dino", max_year=1974,
+       exclude=("308", "gt4")),
+
+    _s("de-tomaso-pantera", "Elvis Çalışmayınca Arabasını Vurdu! De Tomaso Pantera", """
+        Anlatılana göre Elvis Presley, De Tomaso Pantera'sı bir gün çalışmayınca sinirlenip arabaya ateş etti.
+        Bu İtalyan spor arabanın içinde Amerikan Ford V8 motoru vardı. 1971'den itibaren Amerika'da Ford bayileri satıyordu.
+        Kurşun izli araba bugün bir müzede sergileniyor.
+    """, "De Tomaso Pantera", ("pantera",), "#detomaso", max_year=1992),
+
+    _s("chrysler-300-1955", "300 Beygirle Adını Aldı! 1955 Chrysler C-300", """
+        Bu arabanın adı motorunun gücünden geliyor. 1955 Chrysler C-300, 300 beygir güç üreten
+        ilk Amerikan seri üretim otomobillerindendi. Lüks bir sedan gibi görünüyordu ama
+        aynı yıl NASCAR pistlerinde rakiplerine fark attı.
+    """, ("Chrysler C-300 1955", "Chrysler 300B", "Chrysler 300 letter series"), ("c-300", "c300", "300b", "300c", "300 b", "300 c", "300d", "300f", "letter"),
+       "#chrysler", max_year=1965),
+
+    _s("toyota-land-cruiser-fj40", "Çöllerin Kralı: 25 Yıl Üretildi! Toyota Land Cruiser FJ40", """
+        Bu araba çöllerde, ormanlarda ve dağlarda yıllarca durmadan çalıştı. Toyota Land Cruiser FJ40,
+        1960'tan 1984'e kadar üretildi. O kadar dayanıklıydı ki Afrika ve Orta Doğu'da hâlâ binlercesi yolda.
+        Toyota'nın dünya çapındaki ününde bu arabanın payı büyük.
+    """, ("Toyota Land Cruiser FJ40", "Toyota FJ40"), ("fj40", "fj 40", "fj45", "bj40", "40 series"), "#toyota", "#landcruiser",
+       max_year=1984),
 ]
 
 
