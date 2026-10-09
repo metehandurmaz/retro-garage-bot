@@ -9,7 +9,7 @@ Lisansı açık klasik araba videolarını bulur, 1080x1920 Shorts'a çevirir ve
 
 ## Hikâyeli Shorts
 
-Günün 1. ve 3. yüklemesi hikâyeli video, 2. yüklemesi klip olur. Hikâyeli video: Türkçe yapay zekâ seslendirmesi (`edge-tts`), tek kelimelik sarı altyazı (Anton yazı tipi, OFL) ve Wikimedia Commons'taki lisanslı fotoğraflardan hızlı kesmeler.
+Her yükleme hikâyeli videodur; klip sadece hikâye üretilemezse ya da hikâyeler bitince yüklenir. Hikâyeli video: Türkçe yapay zekâ seslendirmesi (`edge-tts`), tek kelimelik sarı altyazı (Anton yazı tipi, OFL) ve Wikimedia Commons'taki lisanslı fotoğraflardan hızlı kesmeler.
 
 - Hikâyeler `src/stories.py` içinde. Yeni hikâye eklemek için listeye bir `_s(...)` satırı eklemek yeterli.
 - Deneme: `python -m src.story_video --id mustang-1964` (yüklemez, `out/` içine yazar).
